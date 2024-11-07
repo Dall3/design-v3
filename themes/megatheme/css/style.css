@@ -22,6 +22,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: #121212; /* Darkmode för allas skull */
 }
 
 .main {
@@ -58,7 +59,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: #ffffff; 
 }
 
 .title p {
@@ -70,11 +71,11 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 1px solid #ffffff;
 }
 
 .footer a {
-    color: #222;
+    color: #ffffff;
 }
 
 .footer .social {
@@ -93,11 +94,13 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    color: #ffffff; /* Presentationstexten */
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    color: #ffffff; /* "Presentation om mig" */
 }
 
 img {
