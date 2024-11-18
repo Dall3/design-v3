@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+.main {
+  flex: 1; 
+  width: 100%;
+  max-width: 64rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+a:hover {
+  color: #bb86fc;
+}
+
+a:visited {
+  color: #bab2c4;
+}

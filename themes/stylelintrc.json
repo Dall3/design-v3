@@ -1,0 +1,15 @@
+{
+    "extends": [
+        "stylelint-config-sass-guidelines"
+    ],
+    "rules": {
+        "at-rule-no-unknown": null,
+        "selector-max-compound-selectors": 5
+    },
+    "ignoreFiles": [
+        "**/node_modules/",
+        "shared/fontawesome/**/*.scss",
+        "**/*.css",
+        "**/*.min.css"
+    ]
+}
