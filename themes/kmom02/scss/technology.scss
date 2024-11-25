@@ -1,0 +1,18 @@
+.landing-page {
+    display: grid;
+    gap: 1.96rem 1.96rem;
+}
+
+.landing-page h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 1.96rem;
+}
+
+.box:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}

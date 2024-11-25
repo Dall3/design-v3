@@ -6154,6 +6154,11 @@ body {
   font-family: "Sour Gummy", sans-serif;
 }
 
+p {
+  font-size: 1.4m;
+  margin-bottom: 1.96rem;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -6219,6 +6224,25 @@ a:visited {
 .site-header h1 {
   font-size: 3rem;
   color: #fff;
+}
+
+.landing-page {
+  display: grid;
+  gap: 1.96rem 1.96rem;
+}
+
+.landing-page h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 1.96rem;
+}
+
+.box:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 * {
