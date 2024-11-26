@@ -35,3 +35,28 @@
 .technology p {
     color: white;
 }
+
+@media (max-width: 600px) {
+    .landing-page {
+        grid-template-columns: 1fr;
+    }
+
+    .landing-page h1 {
+        grid-column: span 1;
+    }
+
+    .technology {
+        flex-direction: column;
+    }
+
+    .technology .article,
+    .technology .menu {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .technology .menu {
+        display: none;
+    }
+}
