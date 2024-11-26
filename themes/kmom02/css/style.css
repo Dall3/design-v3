@@ -6252,7 +6252,7 @@ a:visited {
   align-items: start;
 }
 
-.technology .arctile {
+.technology .article {
   width: 60%;
 }
 
@@ -6260,8 +6260,8 @@ a:visited {
   width: 30%;
 }
 
-.technology .arctile {
-  background-color: grey;
+.technology p {
+  color: white;
 }
 
 * {
