@@ -6252,6 +6252,18 @@ a:visited {
   align-items: start;
 }
 
+.technology .arctile {
+  width: 60%;
+}
+
+.technology .menu {
+  width: 30%;
+}
+
+.technology .arctile {
+  background-color: grey;
+}
+
 * {
   background-color: #333;
 }
