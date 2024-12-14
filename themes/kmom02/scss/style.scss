@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-
-@import '../../node_modules/normalize.css/normalize.css';
+@import '../../node_modules/normalize.css/normalize';
 @import 'variables';
+@import 'general';
+
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import 'header';
+@import 'footer';
+@import 'typography';
+@import 'technology';
+@import 'images';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -9,23 +17,4 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 
-@import 'blockquotes';
-@import 'code';
-
-@import 'typography';
-
-@import 'container';
-@import 'footer';
-@import 'header';
-
-@import 'technology';
-
-* {
-  background-color: #333;
-}
-
-
-img {
-  max-width: 20%;
-  height: auto;
-}
+@import 'gallery';

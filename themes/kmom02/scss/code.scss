@@ -1,19 +1,22 @@
+// Tror inte att denna används, men behåller den för säkerhets skull.
+
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  border: 1px solid $border;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: $background;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
+  color: $background;
 }
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 1px solid $border;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: $border;
 }
 
 pre code {
@@ -24,4 +27,5 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+  color: $background;
 }

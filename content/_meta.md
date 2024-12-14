@@ -8,4 +8,10 @@ Social:
     - title: YouTube
       url: https://www.youtube.com/watch?v=5bfE9vjK29M&ab_channel=kacsa
       icon: fab fa-youtube
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

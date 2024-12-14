@@ -1,12 +1,17 @@
 .footer {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 2rem;
+  background-color: $footer-color;
+  border-top: 1px solid $border;
 
 
   .social {
+    display: flex;
+    justify-content: center;
       a {
           text-decoration: none;
           font-size: 3rem;
