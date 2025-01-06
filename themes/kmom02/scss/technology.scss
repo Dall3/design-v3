@@ -1,6 +1,6 @@
 .landing-page {
   display: grid;
-  gap: 1.96rem 1.96rem;
+  gap: 1.96rem;
 }
 
 .landing-page h1 {
@@ -14,7 +14,7 @@
 }
 
 .box:hover {
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 .technology {
@@ -33,30 +33,30 @@
 }
 
 .technology p {
-  color: white;
+  color: #fff;
 }
 
 @media (max-width: 600px) {
   .landing-page {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 
   .landing-page h1 {
-      grid-column: span 1;
+    grid-column: span 1;
   }
 
   .technology {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .technology .article,
   .technology .menu {
-      width: 100%;
+    width: 100%;
   }
 }
 
 @media (max-width: 600px) {
   .technology .menu {
-      display: none;
+    display: none;
   }
 }

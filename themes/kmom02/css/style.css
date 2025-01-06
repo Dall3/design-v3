@@ -6781,6 +6781,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+/* Gör alla bilder och objekt responsiva */
 img,
 embed,
 object,
@@ -6788,9 +6789,26 @@ video {
   max-width: 100%;
 }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  width: 100%; /* Tar hela bredden */
+  overflow: hidden;
+  margin: 0 auto; /* Centrerar videon */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .gallery {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr; /* En kolumn för små skärmar */
   gap: 16px; /* Mellanrum mellan bilder */
   padding: 16px;
 }
@@ -6813,8 +6831,12 @@ video {
   transform: scale(1.05);
 }
 
-@media (min-width: 768px) { /* Desktop-läge */
+/* Responsiv layout för större skärmar (desktop) */
+@media (min-width: 768px) {
   .gallery {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); /* 3 kolumner på större skärmar */
+  }
+  .video-container {
+    grid-column: span 3; /* Gör videon lika bred som alla bilder på desktop */
   }
 }

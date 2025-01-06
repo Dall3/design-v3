@@ -6,16 +6,16 @@
     "example": "example"
   },
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "lint": "stylelint \"**/*.scss\"",
-      "watch": "sass kmom02/scss/style.scss:kmom02/css/style.css kmom02/scss/style-dark.scss:kmom02/css/style-dark.css --no-source-map --watch",
-      "watch-min": "sass kmom02/scss/style.scss:kmom02/css/style.min.css kmom02/scss/style-dark.scss:kmom02/css/style-dark.min.css --no-source-map --watch --style compressed",
-      "style": "npm run style-light && npm run style-dark",
-      "style-min": "npm run style-light-min && npm run style-dark-min",
-      "style-dark": "sass kmom02/scss/style-dark.scss kmom02/css/style-dark.css --no-source-map",
-      "style-dark-min": "sass kmom02/scss/style-dark.scss kmom02/css/style-dark.min.css --no-source-map --style compressed",
-      "style-light": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-      "style-light-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint \"**/*.scss\"",
+    "watch": "sass kmom02/scss/style.scss:kmom02/css/style.css kmom02/scss/style-dark.scss:kmom02/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass kmom02/scss/style.scss:kmom02/css/style.min.css kmom02/scss/style-dark.scss:kmom02/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass kmom02/scss/style-dark.scss kmom02/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass kmom02/scss/style-dark.scss kmom02/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
+    "style-light-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +25,7 @@
     "normalize.css": "^8.0.1",
     "sass": "^1.26.11",
     "stylelint": "^16.10.0",
-    "stylelint-config-sass-guidelines": "^12.1.0"
+    "stylelint-config-sass-guidelines": "^12.1.0",
+    "stylelint-scss": "^6.10.0"
   }
 }

@@ -31,4 +31,15 @@ Bilder tagna av mig
       <img src="image/clara1.jpg?w=375&h=500&crop-to-fit&area=0,0,25,0&q=70" alt="En häst">
     </picture>
   </a>
+
+  <!-- YouTube Video -->
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/lg5WKsVnEA4" 
+      title="Michael Rosen - Nice" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
 </div>
